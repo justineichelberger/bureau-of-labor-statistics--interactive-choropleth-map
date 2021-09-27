@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <title>States Map</title>
+	  <meta charset="utf-8" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">		
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">JavaScriptTable</script> 
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+	  <style>html, body {height: 100%; width: 100%; margin: 0;} 
+    #map {width: 80vw; height: 95vh; text-align: center;}
+    .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7;}</style>
+	</head>
+
+  <body id = "body">
+
+    <h3 style="font-family: helvetica; padding-left: 8px">data on data jobs may 2020</h3>
+
+    <div class="container" onchange="constructTable('#table')" style="font-family: helvetica; width: 100vw; text-align: justify;">
+      <div class="row" onclick="constructTable('#table')">
+        <div style="display: inline-block; width: 32vw;padding-top: 8px; padding-left: 8px; text-align: left;">
+          <form id="form_1" name="form_1" style="font-family: helvetica; font-size: 16px; font-weight: bold;">occupation:
+            <select id="menu_1" name="menu_1">
+                <option value="15_1211">computer systems analysts</option>
+                <option value="15_1221">computer and info research scientists</option>
+                <option value="15_1245">database admin and architects</option>
+                <option value="15_2031">operations research analysts</option>
+                <option value="15_2041">statisticians</option>
+                <option value="15_1251">computer programmers</option>
+                <option value="15_1257">web developers</option>
+                <option value="15_2098">data scientist</option>
+            </select>
+          </form>
+        </div>
+        <div style="font-family: helvetica; display: inline-block; width: 46vw; text-align: left;">
+            <form id="form_2" style="font-family: helvetica; font-size: 16px; font-weight: bold;" name="form_2">metrics:
+                <select id="menu_2" name="menu_2">
+                    <option value="H_PCT10">10th percentile hourly wages</option>
+                    <option value="H_PCT25">25th percentile hourly wages</option>
+                    <option value="H_MEDIAN">median hourly wages</option>
+                    <option value="H_MEAN">mean hourly wages</option>
+                    <option value="H_PCT75">75th percentile hourly wages</option>
+                    <option value="H_PCT90">90th percentile hourly wages</option>
+                    <option value="A_PCT10">10th percentile annual wages</option>
+                    <option value="A_PCT25">25th percentile annual wages</option>
+                    <option value="A_MEDIAN">median annual wages</option>
+                    <option value="A_MEAN">mean annual wages</option>
+                    <option value="A_PCT75">75th percentile annual wages</option>
+                    <option value="A_PCT90">90th percentile annual wages</option>
+                </select>
+                <input onclick="changeMap(); constructTable('#table'); removeLegend()" id="map_button" type="button" style="font-family: helvetica; font-size: 12px; font-weight: bold;"value="show map">
+            </form>
+        </div>
+        <h4 style = "font-size: 16px; font-family: helvetica; color:black; width: 19vw; text-align: center; display: inline-block; font-weight: bolder;">
+          data
+        </h4>
+      </div>
+    </div>
+
+    <div onloadstart="constructTable('#table')" class="container" id='map_container' style="display: inline-block;">
+      <div id='map' style="display: inline-block; padding-top: 20px; padding-right: 20px; position: absolute;">
+      </div>
+      <table style="font-family: helvetica; position: absolute; margin-left: 84.5vw; display: inline-block; text-align: left;" align = "center"
+      id="table" border="1">
+      </table>
+    </div>
+
+    <script type="text/javascript" src="us-states.js"></script>
+    <script type="text/javascript" src="filter.js"></script>
+    
+    <script type="text/javascript">
+      var map = L.map('map').setView([37.2, -96], 5);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', { 
+        maxZoom: 18, 
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' + 'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>', 
+        id: 'mapbox/light-v9', 
+        tileSize: 512, 
+        zoomOffset: -1	}).addTo(map);
+
+      var geojson = L.geoJson(statesPlottingData).addTo(map);
+
+    </script>
+
+    <p id ="GFG_UP" style = 
+      "font-size: 12px; font-family: helvetica;">
+    </p>
+    
+  </body>
+
+</html>
