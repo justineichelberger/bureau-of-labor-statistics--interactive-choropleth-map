@@ -1,6 +1,6 @@
 # Interactive Choropleth Map
 
-### Data Source:  [Bureau of Labor Statistics](https://www.bls.gov/)
+### Source:  [Bureau of Labor Statistics](https://www.bls.gov/)
 
 This is a version of an interactive choropleth map tutorial provided by [Leaflet](https://leafletjs.com/examples/choropleth/).
 
