@@ -9,6 +9,7 @@ View the current current deployment [here](https://justineichelberger.github.io/
 #### Demonstration:
 
 ![choropleth_demonstration](https://user-images.githubusercontent.com/79673051/137399252-1c54016e-5769-4db5-bb1f-bfab7aeaebb5.gif)
+######[video conversion source](https://gist.github.com/SheldonWangRJT/8d3f44a35c8d1386a396b9b49b43c385)
 
 #### Screenshot: Median Average Wage for Data Sceintists by State
 
