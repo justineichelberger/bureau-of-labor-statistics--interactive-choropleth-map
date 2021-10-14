@@ -17,6 +17,6 @@ View the current current deployment [here](https://justineichelberger.github.io/
 
 The dataset for this interactive visualization can be downloaded as a xls/csv file linked within second paragraph of [this page](https://www.bls.gov/oes/current/oes_nat.htm#00-0000) or directly from [this repository](https://github.com/justineichelberger/BureauOfLaborStatistics-InteractiveChoroplethMap/blob/main/state_M2020_dl.csv).
 
-The javascript that generates the data tables based on dropdown selections was written by Rob Thompson [linkedIn/](https://www.linkedin.com/in/robthompsoncolorado/)[gitHub](https://github.com/rob10thhuman) then adapted.
+The javascript that generates the tables based on the user's dropdown selections was written by Rob Thompson [linkedIn/](https://www.linkedin.com/in/robthompsoncolorado/)[gitHub](https://github.com/rob10thhuman) then adapted.
 
 In development are features to extend interactivity by searching the BLS's beta [dataQuery](https://beta.bls.gov/dataQuery/) for an occupation category and then generating a database for that occupational category.
