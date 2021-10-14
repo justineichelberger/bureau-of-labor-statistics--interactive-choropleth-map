@@ -6,6 +6,6 @@ This is a version of an interactive choropleth map tutorial provided by [Leaflet
 
 The source data for this project can be found [here](https://www.bls.gov/oes/special.requests/oesm20nat.zip).
 
-The javascript that generates the data tables based on user input was written by Rob Thompson [linkedIn/](https://www.linkedin.com/in/robthompsoncolorado/) [gitHub](https://github.com/rob10thhuman) then adapted.
+The javascript that generates the data tables based on user input was written by Rob Thompson [linkedIn/](https://www.linkedin.com/in/robthompsoncolorado/)[gitHub](https://github.com/rob10thhuman) then adapted.
 
 In development is a feature to extend interactivity by searching the BLS's beta [dataQuery](https://beta.bls.gov/dataQuery/) for an occupation category and then generating a database for that occupation category.
