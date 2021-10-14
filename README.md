@@ -8,7 +8,7 @@ A version of an interactive choropleth map tutorial provided by [Leaflet](https:
 
 ![choropleth_demonstration](https://user-images.githubusercontent.com/79673051/137399252-1c54016e-5769-4db5-bb1f-bfab7aeaebb5.gif)
 
-#### Example: Median Average Wage for Data Sceintists by State
+#### Screenshot: Median Average Wage for Data Sceintists by State
 
 ![choropleth map screenshot](https://user-images.githubusercontent.com/79673051/137337947-d910e503-0d19-4d13-af60-2a93fa6b6014.jpg)
 
