@@ -10,6 +10,6 @@ This is a version of an interactive choropleth map tutorial provided by [Leaflet
 
 The dataset for this interactive visualization can be downloaded as a xls/csv download linked within second paragraph of [this page](https://www.bls.gov/oes/current/oes_nat.htm#00-0000) or from [this repository](https://github.com/justineichelberger/BureauOfLaborStatistics-InteractiveChoroplethMap/blob/main/state_M2020_dl.csv) itself.
 
-The javascript that generates the data tables based on user input was written by Rob Thompson [linkedIn/](https://www.linkedin.com/in/robthompsoncolorado/)[gitHub](https://github.com/rob10thhuman) then adapted.
+The javascript that generates the data tables based on dropdown selections was written by Rob Thompson [linkedIn/](https://www.linkedin.com/in/robthompsoncolorado/)[gitHub](https://github.com/rob10thhuman) then adapted.
 
 In development is a feature to extend interactivity by searching the BLS's beta [dataQuery](https://beta.bls.gov/dataQuery/) for an occupation category and then generating a database for that occupational category.
