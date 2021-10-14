@@ -4,9 +4,7 @@
 
 This is a version of an interactive choropleth map tutorial provided by [Leaflet](https://leafletjs.com/examples/choropleth/).
 
-
-https://user-images.githubusercontent.com/79673051/137393420-02f2500a-bba2-4a41-9fe8-56a9945753b5.mov
-
+https://user-images.githubusercontent.com/79673051/137394599-60d45e6e-f890-4ebe-9d9c-57dbb2d9bc9d.mov
 
 #### Example: Median Average Wage for Data Sceintists by State
 
