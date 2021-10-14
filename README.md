@@ -16,4 +16,4 @@ The dataset for this interactive visualization can be downloaded as a xls/csv fi
 
 The javascript that generates the data tables based on dropdown selections was written by Rob Thompson [linkedIn/](https://www.linkedin.com/in/robthompsoncolorado/)[gitHub](https://github.com/rob10thhuman) then adapted.
 
-In development is a feature to extend interactivity by searching the BLS's beta [dataQuery](https://beta.bls.gov/dataQuery/) for an occupation category and then generating a database for that occupational category.
+In development are features to extend interactivity by searching the BLS's beta [dataQuery](https://beta.bls.gov/dataQuery/) for an occupation category and then generating a database for that occupational category.
