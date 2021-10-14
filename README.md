@@ -4,6 +4,8 @@
 
 A version of an interactive choropleth map tutorial provided by [Leaflet](https://leafletjs.com/examples/choropleth/).
 
+View the current current deployment [here](https://justineichelberger.github.io/BureauOfLaborStatistics-InteractiveChoroplethMap/).
+
 #### Demonstration:
 
 ![choropleth_demonstration](https://user-images.githubusercontent.com/79673051/137399252-1c54016e-5769-4db5-bb1f-bfab7aeaebb5.gif)
