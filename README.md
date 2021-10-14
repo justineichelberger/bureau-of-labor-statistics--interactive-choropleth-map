@@ -1,6 +1,7 @@
 # Interactive Choropleth Map based on data from the Bureau of Labor Statistics
 This is a version of an interactive choropleth map tutorial provided by [Leaflet](https://leafletjs.com/examples/choropleth/).
 
+## Example: 
 ![choropleth map screenshot](https://user-images.githubusercontent.com/79673051/137337947-d910e503-0d19-4d13-af60-2a93fa6b6014.jpg).
 
 
