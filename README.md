@@ -2,7 +2,7 @@
 This is a version of an interactive choropleth map tutorial provided by [Leaflet](https://leafletjs.com/examples/choropleth/).
 
 #### Example: Median Average Wage for Data Sceintists by State
-![choropleth map screenshot](https://user-images.githubusercontent.com/79673051/137337947-d910e503-0d19-4d13-af60-2a93fa6b6014.jpg).
+![choropleth map screenshot](https://user-images.githubusercontent.com/79673051/137337947-d910e503-0d19-4d13-af60-2a93fa6b6014.jpg)
 
 
 The source data for this project can be found [here](https://www.bls.gov/oes/special.requests/oesm20nat.zip).
