@@ -1,4 +1,4 @@
-# Interactive Choropleth Map based on data from the Bureau of Labor Statistics
+# Interactive Choropleth Map
 This is a version of an interactive choropleth map tutorial provided by [Leaflet](https://leafletjs.com/examples/choropleth/).
 
 #### Example: Median Average Wage for Data Sceintists by State
